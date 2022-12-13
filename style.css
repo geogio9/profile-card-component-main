@@ -1,0 +1,195 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    overflow: hidden;
+}
+
+body {
+    background-color: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.bg_top {
+    position: absolute;
+    left: -208.71px;
+    top: -470px;
+}
+
+.bg_bottom {
+    position: absolute;
+    right: -90px;
+    top: 400px;
+}
+
+
+.container {
+    text-align: center;
+
+    z-index: 1;
+
+    padding-bottom: 27px;
+
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+
+}
+
+
+.bg_card {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+img {
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+
+    width: 96px;
+    height: 96px;
+
+    /* overflow: hidden; */
+
+    margin: -50px auto -30px auto;
+    margin-bottom: 24px;
+
+    /* position: relative;
+    margin-left: 127px;
+    margin-top: 92px; */
+}
+
+.user {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.victor {
+    margin-left: 108px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #2E3349;
+}
+
+.age {
+    margin-left: 8.5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #6B7082;
+}
+
+p {
+    /* margin-left: 150px; */
+    margin-top: 13px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* text-align: center; */
+
+    color: #6B7082;
+
+}
+
+.line {
+    width: 350px;
+    height: 1px;
+    margin-top: 28px;
+    background-color: #E8E9EC;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 24px;
+}
+
+.followers {
+    margin-left: 48.5px;
+}
+
+.photos {
+    margin-right: 55.5px;
+}
+
+nav {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #2E3349;
+}
+
+ul {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+
+    color: #6B7082;
+
+    margin-top: 9px;
+}
+
+/**************  *************/
+
+
+@media(max-width:375px) {
+    body {
+        overflow-y: hidden;   
+     }
+    .container{
+        width: 326px;
+    }
+
+
+    .bg_top {
+        height: 622px;
+        width: 621px;
+        top: -287px;
+        left:-447px;
+    }
+
+    .bg_bottom {
+        height: 622px;
+        width: 621px;
+        top: 400px;
+        right: -390px;
+   }
+   .line{
+    width: 326px;
+   }
+}
